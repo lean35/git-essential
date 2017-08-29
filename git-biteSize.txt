@@ -12,6 +12,7 @@ git add .
 git add -p <filename>
 git commit -am "first row added" 
 
+######## GIT REMOTE #######
 # Set a new remote
 git remote add origin https://github.com/lean35/git-essential.git
 git remote -v
@@ -20,6 +21,11 @@ git remote -v
 git branch -av
 git push origin master
 
+######## GIT BRANCH #######
+git branch branch02
+git checkout branch02
+//modify things
+git push origin branch02
 git checkout branch02
 //modify things
 git push origin branch02
