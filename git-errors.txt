@@ -1,0 +1,21 @@
+git pull origin master
+fatal: refusing to merge unrelated histories
+Error redoing merge 1234deadbeef1234deadbeef
+
+Fix
+https://stackoverflow.com/questions/37937984/git-refusing-to-merge-unrelated-histories
+git pull origin master --allow-unrelated-histories
+
+
+------------------------------
+
+
+git.exe pull --progress -v --no-rebase "origin" master
+
+From https://github.com/lean35/git-essential
+* branch            master     -> FETCH_HEAD
+= [up to date]      master     -> origin/master
+fatal: refusing to merge unrelated histories
+
+
+git did not exit cleanly (exit code 128) (735 ms @ 8/29/2017 9:42:54 AM)
