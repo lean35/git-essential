@@ -4,6 +4,14 @@ visual studio code error
 git pull origin master
 Git: There is no tracking information for the current branch
 
+You could specify what branch you want to pull:
+
+git pull origin master
+Or you could set it up so that your local master branch tracks github master branch as an upstream:
+
+git branch --set-upstream-to=origin/master master
+git pull
+
 
 ------------------------------
 
