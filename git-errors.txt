@@ -1,3 +1,12 @@
+------------------------------
+visual studio code error 
+
+git pull origin master
+Git: There is no tracking information for the current branch
+
+
+------------------------------
+
 git pull origin master
 fatal: refusing to merge unrelated histories
 Error redoing merge 1234deadbeef1234deadbeef
