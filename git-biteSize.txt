@@ -22,10 +22,12 @@ git branch -av
 git push origin master
 
 ######## GIT BRANCH #######
-git branch branch02
-git checkout branch02
-//modify things
-git push origin branch02
-git checkout branch02
-//modify things
-git push origin branch02
+git branch brch-01
+git checkout brch-01
+git branch 
+  cat >> test01.txt 
+    more text
+  ^D
+git status
+git commit -am "more mod"
+git push origin brch-01
