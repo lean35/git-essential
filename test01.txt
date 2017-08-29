@@ -1,7 +1,4 @@
 first row
 more notes
 this content is stashed
-<<<<<<< Updated upstream
 added content for stash
-=======
->>>>>>> Stashed changes

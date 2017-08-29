@@ -45,11 +45,7 @@ git rebase brch-01
 git rebase --abort
 git rebase --continue
 
-<<<<<<< Updated upstream
 ######## GIT STASH #######
 git stash
 git stash list
 git stash apply
-=======
-######## GIT STASH #######
->>>>>>> Stashed changes
