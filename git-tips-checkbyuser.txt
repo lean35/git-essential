@@ -1,0 +1,4 @@
+git clone repo 
+git checkout
+use tortoise git then by users Alexander
+
