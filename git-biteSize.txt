@@ -1,0 +1,13 @@
+git clone https://github.com/lean35/git-essential.git
+git clone git@github.com:lean35/git-essential.git
+git init
+git status
+  touch test01.txt
+  cat >> test01.txt
+  first row
+  ^D
+  cat test01.txt
+git status 
+git add .
+git add -p <filename>
+git commit -am "first row added" 
